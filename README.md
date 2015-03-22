@@ -25,6 +25,7 @@ activityrecognition '@' smartlab.ws
 
 ### run_analysis.R
 
+
 The supplied R script called run_analysis.R does the following :
  
    * Assumes that the data is already downloaded from the URL https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  and unzipped to a folder "UCI HAR Dataset" in the working directory 
