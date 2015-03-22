@@ -3,9 +3,9 @@ Created for Coursera course Getting and Cleaning Data Assignment
 
 This repoistory has three files
 
-  * README.MD -> This file explaining the content in this repository
+  * README.md -> This file explaining the content in this repository
   * run_analysis.R -> R script used to cleanup and produce the tidy dataset for the assignment
-  * codebook.MD  -> explains the final tidy dataset and its contents
+  * Codebook.md  -> explains the final tidy dataset and its contents
 
 Input data:
 
@@ -23,6 +23,7 @@ DITEN - Università degli Studi di Genova, Genoa (I-16145), Italy.
 Universitat Politècnica de Catalunya (BarcelonaTech). Vilanova i la Geltrú (08800), Spain
 activityrecognition '@' smartlab.ws
 
+### run_analysis.R
 
 The supplied R script called run_analysis.R does the following :
  
@@ -43,8 +44,8 @@ The supplied R script called run_analysis.R does the following :
    as per https://class.coursera.org/getdata-012/forum/thread?thread_id=234
     Hadleys: http://vita.had.co.nz/papers/tidy-data.pdf
 
- Code for reading the tidy data into R
-
+### Code for reading the tidy data into R
+```
 address <- "https://s3.amazonaws.com/coursera-uploads/user-2f2f965c745ebbb70a626573/973499/asst-3/c4b31b20d05411e48792995681333c24.txt"
 
 address <- sub("^https", "http", address)
@@ -52,9 +53,11 @@ address <- sub("^https", "http", address)
 data <- read.table(url(address), header = TRUE) 
 
 View(data)  
+```
 
 
-codebook.md contains the description of the tidy data file contents
+### codebook.md 
+contains the description of the tidy data file contents
 
 
 
