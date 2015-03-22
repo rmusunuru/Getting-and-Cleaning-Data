@@ -177,5 +177,3 @@ Reduced this raw dataset to a tidy dataset as per guidance in https://class.cour
 * fBodyAccGyroJerkMag-mean() : mean of mean value of FFT Euclidean norm of Gyro Jerk per activity per subject
 * fBodyAccGyroJerkMag-std()  : mean of std value of FFT Euclidean norm of Gyro Jerk per activity per subject
 
-
-
